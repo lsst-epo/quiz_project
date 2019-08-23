@@ -35,9 +35,13 @@ Create a short quiz that presents an **information block**, and evaluates the us
 ### Components
 
 **Information Block**: Several paragraphs of text
+
 **Question**: Form element with accompanying text
+
 **Active Question**: The question whose form field currently has, or last had, focus
+
 **Answer**: Form element value
+
 **Question Types**:
 * Multiple Choice (`Inline` or `Block Level` `Select`)
 * Compound Multiple Choice (2 or more `Inline` `Select`
@@ -49,7 +53,9 @@ Create a short quiz that presents an **information block**, and evaluates the us
 ### Users
 
 **Desktop User**: Uses keyboard, mouse, and screen, and a `Chrome` browser window width >= 1024px
+
 **Mobile User**: Uses touchscreen, and a `Chrome` or `Safari` browser window width <= 768px
+
 **Screen Reader User**: Uses Screen Reader (like `VoiceOver`, `Narrator`, `JAWS`, etc.) and a keyboard, and Chrome browser.
 
 ### User Stories
@@ -88,9 +94,11 @@ Create a short quiz that presents an **information block**, and evaluates the us
 #### Run development server
 
 > `npm run start` (or `yarn start`) for a dev server. Navigate to `http://localhost:8080/`. 
+
 The app will automatically reload if you change any of the source files.
 
 #### Build
 
 > `npm run build` (or `yarn build`) to build the project in development mode. 
+
 The build artifacts will be stored in the `dist/` directory.
