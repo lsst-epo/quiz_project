@@ -1,26 +1,96 @@
-## This project provide following functionality: 
+# Take Home "Quiz Project"
+
+## Table of Contents
+
+[Getting Started](#getting-started)
+
+[Project Info](#project)
+
+[Boilerplate Info](#boilerplate-info)
+
+
+## Getting Started
+
+[Project repo](https://github.com/lsst-epo/quiz_project)
+
+[The bolierplate that is the basis for this project](https://github.com/lsst-epo/webpack_babel_sass_boilerplate)
+
+Refer to this readme for project requirements, and information regarding the development environment (installing dependencies, starting the development server, creating builds, etc).
+
+### Things to keep in mind
+
+* Commit early and often.  We’re interested in how you like to use git, and how you break down even a small app like this into more manageable parts.  
+
+* After you finish the project please push it to a repo on your personal github and email us the link.
+
+* Please don’t spend more than 4 hours on this project.  You may not fully complete all aspects of this project, that’s totally ok, but be prepared to discuss all aspects of this project, including talking through other potential solutions, and possible extensions.
+
+
+## Project
+
+Create a short quiz that presents an **information block**, and evaluates the user’s understanding of the **information block** using several **question types**.  Feel free to add, alter, or replace any or all of the provided copy, markup, or styles.
+
+**Note**: The content of the quiz is nonconsequential; Ipsum Lorem is entirely sufficient for the **information block** and the **questions**.
+
+### Components
+
+**Information Block**: Several paragraphs of text
+**Question**: Form element with accompanying text
+**Active Question**: The question whose form field currently has, or last had, focus
+**Answer**: Form element value
+**Question Types**:
+* Multiple Choice (`Inline` or `Block Level` `Select`)
+* Compound Multiple Choice (2 or more `Inline` `Select`
+* Fill in the blank (Inline Text Input)
+* Compound Fill in the Blank (2 or more `Inline` `Text Input`)
+* Short Answer (`Block Level` `Text Input`)
+* Long Answer (`Block Level` `Text Area`)
+
+### Users
+
+**Desktop User**: Uses keyboard, mouse, and screen, and a `Chrome` browser window width >= 1024px
+**Mobile User**: Uses touchscreen, and a `Chrome` or `Safari` browser window width <= 768px
+**Screen Reader User**: Uses Screen Reader (like `VoiceOver`, `Narrator`, `JAWS`, etc.) and a keyboard, and Chrome browser.
+
+### User Stories
+
+* As a **Desktop or Mobile User**, I can easily distinguish the **active question** from all other questions so that my attention is on the **active question**.
+
+* As a **Desktop or Mobile User**, I can easily distinguish between **answered** and **unanswered** **questions** so that I can identify my general progress at a glance, and easily identify skipped **questions**.
+
+* As a **Desktop User**, I can view the **information block** and the **active question** at the same time so that I can easily refer back to details in the **information block** while answering the **active question**.
+
+* As a **Mobile User**, I can easily navigate between the **information block** and the **active question** using a single tap (or gesture) so that I have the option to refer back to details in the **information block** without a lot of scrolling.
+
+* As a **Screen Reader or Desktop User**, I can navigate the quiz using only the keyboard so that my experience is fundamentally consistent regardless of accessibility.
+
+
+## Boilerplate info
+
  1. Webpack configuration for development and production
  2. Transpile ES6+ to ES5
- 3. Convert SCSS to CSS
- 4. Managing static resources
+ 3. Transpile and Autoprefix SCSS to CSS
+ 4. Manage static resources
  5. Support for extending webpack functionality with different plugins
 
-### To clone the repository
-> Run `git clone https://github.com/lsst-epo/webpack_babel_sass_boilerplate.git`
+#### To clone the repository
 
-### Change directory
-> cd `webpack_babel_sass_boilerplate`
+> `git clone https://github.com/lsst-epo/webpack_babel_sass_boilerplate.git`
 
-### Install dependencies
-> npm install (or `yarn`)
+#### Change directory
 
-### Run development server
+> `cd webpack_babel_sass_boilerplate`
 
-> Run `npm run start` (or `yarn start`) for a dev server. Navigate to `http://localhost:8080/`. 
+#### Install dependencies
+
+> `npm install` (or `yarn`)
+
+#### Run development server
+
+> `npm run start` (or `yarn start`) for a dev server. Navigate to `http://localhost:8080/`. 
 The app will automatically reload if you change any of the source files.
 
-### Build
+#### Build
 
-> Run `npm run build` to build the project in development mode. 
-
+> `npm run build` (or `yarn build`) to build the project in development mode. 
 The build artifacts will be stored in the `dist/` directory.
