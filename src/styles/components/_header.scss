@@ -1,16 +1,19 @@
 .header-primary {
-  display: flex;
-  justify-content: space-between;
-  min-height: 50px;
   background-color: $basePrimary;
 
+  .header-inner {
+    max-width: $containerMaxWidth;
+    min-height: 50px;
+    padding: 0 $minPadding;
+    margin: 0 auto;
+  }
+
   .logo-wrapper {
-    display: flex;
-    align-items: center;
+    display: block;
   }
 
   .site-logo {
+    display: block;
     width: 96px;
-    margin-left: 20px;
   }
 }
