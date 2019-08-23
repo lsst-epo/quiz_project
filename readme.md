@@ -28,7 +28,7 @@ Refer to this readme for project requirements, and information regarding the dev
 
 ## Project
 
-Create a short quiz that presents an **information block**, and evaluates the user’s understanding of the **information block** using several **question types**.  Feel free to add, alter, or replace any or all of the provided copy, markup, or styles.
+Create a short quiz that presents an **information block**, and evaluates the user’s understanding of the **information block** using several **question types**.  Feel free to  (you will need to) add, alter, or replace any or all of the provided copy, markup, or styles.
 
 **Note**: The content of the quiz is nonconsequential; Ipsum Lorem is entirely sufficient for the **information block** and the **questions**.
 
@@ -43,12 +43,12 @@ Create a short quiz that presents an **information block**, and evaluates the us
 **Answer**: Form element value
 
 **Question Types**:
-* Multiple Choice (`Inline` or `Block Level` `Select`)
-* Compound Multiple Choice (2 or more `Inline` `Select`
-* Fill in the blank (Inline Text Input)
-* Compound Fill in the Blank (2 or more `Inline` `Text Input`)
 * Short Answer (`Block Level` `Text Input`)
 * Long Answer (`Block Level` `Text Area`)
+* Fill in the blank (`Inline` `Text Input`)
+* Compound Fill in the Blank (2 or more `Inline` `Text Input`)
+* Multiple Choice (`Inline` or `Block Level` `Select`)
+* Compound Multiple Choice (2 or more `Inline` `Select`)
 
 ### Users
 

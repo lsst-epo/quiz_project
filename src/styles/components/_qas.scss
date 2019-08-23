@@ -1,0 +1,66 @@
+.container-qas {
+  padding: $minPadding 0;
+}
+
+.qas {
+  margin-top: $verticalSpace;
+
+  .qa {
+    + .qa {
+      margin-top: $verticalSpace * 2;
+    }
+  }
+}
+
+.question, label.question {  
+  display: block;
+
+  + .answer {
+    margin-top: $verticalSpace;
+  }
+
+  label {
+    display: block;
+  }
+}
+
+.multiple-choice {
+  .answer {
+    select {
+      display: block;
+    }
+  }
+}
+
+.inline-multiple-choice {
+  .answer {
+    margin: 0 0.25em;
+
+    select {
+      display: inline-block;
+    }
+  }
+}
+
+.fill-in-the-blank {
+  .answer {
+    margin: 0 0.25em;
+    display: inline-block;
+  }
+}
+
+.short-answer {
+  input {
+    display: block;
+    width: 100%;
+  }
+}
+
+.long-answer {
+  textarea {
+    display: block;
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+  }
+}

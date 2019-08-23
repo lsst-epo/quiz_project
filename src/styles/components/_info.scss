@@ -1,0 +1,9 @@
+.container-info {
+  padding: $minPadding 0;
+}
+
+.info {
+  h2 + p {
+    margin-top: $verticalSpace;
+  }
+} 
