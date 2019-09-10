@@ -79,13 +79,13 @@ Create a short quiz that presents an **information block**, and evaluates the us
  4. Manage static resources
  5. Support for extending webpack functionality with different plugins
 
-#### To clone the repository
+#### To clone this repository
 
-> `git clone https://github.com/lsst-epo/webpack_babel_sass_boilerplate.git`
+> `git clone https://github.com/lsst-epo/quiz_project.git`
 
 #### Change directory
 
-> `cd webpack_babel_sass_boilerplate`
+> `cd quiz_project`
 
 #### Install dependencies
 
